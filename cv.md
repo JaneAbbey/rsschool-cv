@@ -26,7 +26,8 @@ My goal is to become a front-end developer, be a part of interesting projects, l
 
 #### Code Example
 
-``function _createModal(options){
+```javascript
+function _createModal(options){
         const modal= document.createElement('div');
         modal.classList.add("vmodal");
         modal.insertAdjacentHTML("afterbegin",
@@ -62,6 +63,9 @@ $.modal=function(options){
         },
         destroy() {}
     }
-} ``
+} 
+```
+
 #### English Level
+
 Pre-Intermediate
